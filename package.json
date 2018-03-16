@@ -15,9 +15,7 @@
     "start": "preact-scripts start",
     "build": "preact-scripts build",
     "eject": "preact-scripts eject",
-    "test": "preact-scripts test",
-    "predeploy": "preact-scripts build",
-    "deploy": "surge build -d robinjs.surge.sh"
+    "test": "preact-scripts test"
   },
   "eslintConfig": {
     "extends": "./node_modules/preact-scripts/config/eslint.js"
