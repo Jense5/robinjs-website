@@ -8,6 +8,7 @@ const defaults = {
 export default class Assistant {
   constructor(config = {}) {
     this.config = { ...defaults, ...config };
+    // eslint-disable-next-line
     this.recognizer = new webkitSpeechRecognition();
     this.recognizer.lang = this.config.language;
     this.recognizer.addEventListener('end', () => {
