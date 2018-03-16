@@ -1,6 +1,6 @@
 {
-  "name": "virtual-assistant",
-  "version": "0.0.1",
+  "name": "robinjs-preact-website",
+  "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "preact-scripts": "0.3.0-alpha",
